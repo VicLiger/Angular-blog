@@ -1,0 +1,14 @@
+<div>
+    <div class="card-image">
+        <img [src]="imageURL" alt="Imagem do Blog">
+    </div>
+
+    <div class="card-text">
+        <h1>TESTE AQUI</h1>
+        <div>
+            <p *ngFor="let item of cardDescription">
+                {{ item }}
+            </p>
+        </div>
+    </div>
+</div>
