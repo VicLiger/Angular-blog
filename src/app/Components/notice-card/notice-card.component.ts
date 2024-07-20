@@ -43,7 +43,7 @@ export class NoticeCardComponent implements OnInit{
       for(let iterator = 0; iterator < numbersDescription; iterator++){
 
         const randomIndex = Math.floor(Math.random() * this.description.length);
-
+ 
         const descriptionIndex = this.cardDescription.indexOf(this.description[iterator])
 
         this.cardDescription.push(this.description[iterator])

@@ -1,14 +1,17 @@
 <div>
     <div class="card-image">
-        <img [src]="imageURL" alt="Imagem do Blog">
+        <img src="Images/pngtree-hd-wave-pattern-background-jpg-picture-image_1148678.jpg" alt="Imagem do Blog">
     </div>
 
     <div class="card-text">
-        <h1>TESTE AQUI</h1>
-        <div>
-            <p *ngFor="let item of cardDescription">
+        
+    </div>
+
+    <div class="card-description">
+        <ul>
+            <li *ngFor="let item of cardDescription">
                 {{ item }}
-            </p>
-        </div>
+            </li>
+        </ul>
     </div>
 </div>
