@@ -1,15 +1,78 @@
 .header{
+    width: 90%;
+    height: 4rem;
     display: flex;
+    margin-top: 1rem;
+    margin: auto;
+    color: white;
+    background-color: rgb(0, 13, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
 }
 
+
+/* TITULO PRINCIPAL DA PAGINA */
+
 .header-title{
+    width: 8rem;
+    background-color: blue;
     display: flex;
+    justify-content: space-evenly;
+}
+
+.header-title h1{
+    font-size: 15px;
+    margin: auto;
+    font-weight: 500;
 }
 
 .header-logo{
-    width: 10%;
-    height: 15px;
-    background-color: rgb(255, 0, 0);
+    width: 8%;
+    height: 10px;
+    background-color: rgb(0, 13, 255);
+    border: solid 4px white;
     border-radius: 50px;
-    padding: 15px;
+    padding: 0.5rem;
+    margin: auto;
 }
+
+
+/* BARRA DE OPÇÕES */
+
+.header-bar{
+    width: 70%;
+    background-color: red;
+    display: flex;
+}
+
+.options{
+    width: 80%;
+    background-color: blueviolet;
+    
+}
+
+.options ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+
+.started-button{
+    margin: auto;
+    width: 15%;
+    height: 3.4rem;
+    background-color: rgb(118, 168, 255);
+    border: solid 2px white;
+    border-radius: 15px;
+    
+}
+
+.started-button p{
+    margin-top: 1rem;
+    text-align: center;
+}
+

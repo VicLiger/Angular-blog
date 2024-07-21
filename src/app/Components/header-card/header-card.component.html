@@ -4,8 +4,21 @@
         <h1>Untitled UI</h1>
     </div>
     
-    <div>ssdafsadgasdf</div>
+    <div class="header-bar">
+        <div class="options">
 
-    <div>pega na minha bola direira</div>
+            <ul>
+                <li *ngFor="let item of headerOptions">
+                    {{item}}
+                </li>
+            </ul>
+        </div>
+
+        <div class="started-button">
+            <p>
+                GetStarted
+            </p>
+        </div>
+    </div>
 
 </div>
