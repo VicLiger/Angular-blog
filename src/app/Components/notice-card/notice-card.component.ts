@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 export class NoticeCardComponent implements OnInit{
 
 
-  imageURL:string = '';
+  imagem: string = "assets/img/GeoIcon.png";
 
   description : string[] = [
     'Design',
@@ -25,7 +25,7 @@ export class NoticeCardComponent implements OnInit{
 
   cardDescription : string[] = []
 
-
+  
   constructor() {
     
   }

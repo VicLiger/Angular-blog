@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { NoticeCardComponent } from "./Components/notice-card/notice-card.component";
 import { HeaderCardComponent } from "./Components/header-card/header-card.component";
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
