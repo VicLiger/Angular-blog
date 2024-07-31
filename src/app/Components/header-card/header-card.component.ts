@@ -15,11 +15,11 @@ export class HeaderCardComponent implements OnInit{
 
   headerOptions:string[] = [
     "Home",
-    "Products",
-    "Solutions",
+    "Products   ⬇",
+    "Solutions   ⬇",
     "Pricing",
-    "Resources",
-    "Company",
+    "Resources   ⬇",
+    "Company   ⬇",
     "Careers"
   ]
   constructor() {

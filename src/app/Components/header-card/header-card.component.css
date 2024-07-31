@@ -3,9 +3,8 @@
     height: 4rem;
     display: flex;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 0rem;
     color: white;
-    background-color: rgb(0, 13, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: space-between;
 }
@@ -15,7 +14,6 @@
 
 .header-title{
     width: 8rem;
-    background-color: blue;
     display: flex;
     justify-content: space-evenly;
 }
@@ -29,7 +27,6 @@
 .header-logo{
     width: 8%;
     height: 10px;
-    background-color: rgb(0, 13, 255);
     border: solid 4px white;
     border-radius: 50px;
     padding: 0.5rem;
@@ -58,19 +55,51 @@
     font-weight: 500;
 }
 
+.options ul li a {
+    color: white;
+    font-style: normal; 
+    text-decoration: none;
+    font-size: 16px; 
+    transition: font-size 0.25s ease; 
+}
 
-.started-button{
+.options ul li a:hover {
+    font-size: 20px; 
+}
+
+
+
+.started-button {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
     margin: auto;
     width: 15%;
-    height: 3.4rem;
+    height: 3rem;
     background-color: rgb(118, 168, 255);
+    color: white;
     border: solid 2px white;
     border-radius: 15px;
-    
+    margin-top: 0.75rem;
+    text-align: center; 
+    transition: width 0.25s ease, height 0.25s ease, transform 0.25s ease; 
+    cursor: pointer;
 }
 
-.started-button p{
-    margin-top: 1rem;
-    text-align: center;
+.started-button:hover {
+    width: 17%; 
+    height: 3.5rem; 
+    transform: scale(1.05);
 }
+
+.started-button p {
+    margin: 0; 
+}
+
+.started-button strong {
+    display: block; 
+}
+
+
+
 

@@ -1,7 +1,11 @@
 <div class="header">
     <div class="header-title">
         <div class="header-logo"></div>
-        <h1>Untitled UI</h1>
+        <h1>
+            <strong>
+                Untitled UI
+            </strong>        
+        </h1>
     </div>
     
     <div class="header-bar">
@@ -9,16 +13,19 @@
 
             <ul>
                 <li *ngFor="let item of headerOptions">
-                    {{item}}
+                    <a href="">{{item}} </a>
                 </li>
             </ul>
         </div>
 
-        <div class="started-button">
+        <button class="started-button">
             <p>
-                GetStarted
+                <strong>
+                    Get Started
+                </strong>
             </p>
-        </div>
+        </button>
+        
     </div>
 
 </div>
