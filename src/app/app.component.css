@@ -4,3 +4,13 @@
     background-image: url(../assets/background/Blue-Wallpaper-For-Background-1.jpg);
     background-repeat: no-repeat;
 }
+
+.container-notice{
+    margin: auto;
+    width: 90%;
+    height: 20rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
